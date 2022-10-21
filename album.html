@@ -20,6 +20,7 @@
             border: 2px solid rebeccapurple;
             position: relative;
             margin: 10px;
+            overflow: hidden;
         }
         
 
@@ -48,6 +49,10 @@
         .photo-frame:hover .photo-detail{
             display: block;
             background-color: rgba(240, 255, 255, 0.7);
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5);
+            transition: transform 2s ease-in-out;
         }
 
         
